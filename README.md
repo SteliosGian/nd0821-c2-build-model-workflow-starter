@@ -30,7 +30,7 @@ In this project you will build such a pipeline.
   * [Release the pipeline](#release-the-pipeline)
   * [Train the model on a new data sample](#train-the-model-on-a-new-data-sample)
 - [Cleaning up](#cleaning-up)
-- [Link to W&B](#link-to-w&b)
+- [Link to W&B and GitHub](#link-to-w&b-and-github)
 
 ## Preliminary steps
 ### Fork the Starter kit
