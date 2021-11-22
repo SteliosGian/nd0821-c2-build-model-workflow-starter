@@ -30,6 +30,7 @@ In this project you will build such a pipeline.
   * [Release the pipeline](#release-the-pipeline)
   * [Train the model on a new data sample](#train-the-model-on-a-new-data-sample)
 - [Cleaning up](#cleaning-up)
+- [Link to W&B](#link-to-w&b)
 
 ## Preliminary steps
 ### Fork the Starter kit
@@ -567,3 +568,9 @@ you have trained your new model on the new data.
 ## License
 
 [License](LICENSE.txt)
+
+
+## Link to W&B and GitHub
+
+[W&B](https://wandb.ai/steliosgian/nyc_airbnb?workspace=user-steliosgian)
+[GitHub](https://github.com/SteliosGian/nd0821-c2-build-model-workflow-starter)
