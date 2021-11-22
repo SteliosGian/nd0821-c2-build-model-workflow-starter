@@ -91,7 +91,7 @@ def go(config: DictConfig):
             )
 
         if "train_random_forest" in active_steps:
-
+            # Train the Random Forest model and load to W&B
             # NOTE: we need to serialize the random forest configuration into JSON
             rf_config = os.path.abspath("rf_config.json")
             with open(rf_config, "w+") as fp:
@@ -115,7 +115,7 @@ def go(config: DictConfig):
             )
 
         if "test_regression_model" in active_steps:
-
+            # Perform inference using the PROD Random Forest model
             _ = mlflow.run(
                 f"{config['main']['components_repository']}/test_regression_model",
                 "main",
