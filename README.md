@@ -572,5 +572,5 @@ you have trained your new model on the new data.
 
 ## Link to W&B and GitHub
 
-[W&B](https://wandb.ai/steliosgian/nyc_airbnb?workspace=user-steliosgian)
+[W&B](https://wandb.ai/steliosgian/nyc_airbnb?workspace=user-steliosgian) <br>
 [GitHub](https://github.com/SteliosGian/nd0821-c2-build-model-workflow-starter)
