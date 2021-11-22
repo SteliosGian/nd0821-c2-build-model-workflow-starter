@@ -119,8 +119,6 @@ def go(args):
     artifact.add_dir("random_forest_dir")
 
     run.log_artifact(artifact)
-
-    artifact.wait()
     ######################################
 
     # Plot feature importance
